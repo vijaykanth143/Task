@@ -1,0 +1,40 @@
+.logo {
+  height: 50px;
+  width: 180px;
+  margin: 10px;
+}
+.bg-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+}
+.bg-2 {
+  display: flex;
+  margin: 13px;
+}
+.text {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-right: 10px;
+  text-align: right;
+}
+input {
+  height: 40px;
+  width: 250px;
+  border: 2px solid #f1f3fa;
+  border-right: 0px;
+  padding-left: 35px;
+}
+.icon {
+  font-size: 40px;
+  padding: 8px;
+  margin-right: 8px;
+  background-color: white;
+  border: 2px solid #f1f3fa;
+  border-left: 0px;
+  color: #cdcdcd;
+}
+::placeholder {
+  opacity: 0.5;
+}
